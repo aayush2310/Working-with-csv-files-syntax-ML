@@ -1,0 +1,1 @@
+pd.read_csv('seating_arrangement_16627328541092202084631b4a36cb1eb.csv',header=1)
