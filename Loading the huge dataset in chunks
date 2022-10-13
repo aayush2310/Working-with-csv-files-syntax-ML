@@ -1,0 +1,4 @@
+dfs=pd.read_csv('seating_arrangement_16627328541092202084631b4a36cb1eb.csv',chunksize=50)
+
+for chunks in dfs:
+    print(chunks.shape)
