@@ -1,0 +1,3 @@
+pd.read_csv('zomato.csv',encoding='latin-1')
+
+//It is used when the encoding of the text in csv file is different from the default
