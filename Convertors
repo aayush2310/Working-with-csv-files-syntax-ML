@@ -1,0 +1,9 @@
+pd.read_csv('data.csv',converters={'rowname':rename})
+
+def rename(name):
+  if name="Chennai Superkings":
+     return "RCB"
+  else:
+     return name
+     
+//It is used if i want to apply a transformation on any column//
